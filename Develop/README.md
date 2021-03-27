@@ -1,5 +1,5 @@
-# Readme Generator
-Apache
+# README generator
+GPL
 
 ## Table of Contents
 - [Description](#description) 
@@ -9,13 +9,13 @@ Apache
 - [contact](#contact)
 
 ## Description
-readme generator
+This will generate a professional README
 
 ## Usage
-crying
+dangerously
 
 ## Tests
-akakaka
+none
 
 ## Contributors
 rhineyman
