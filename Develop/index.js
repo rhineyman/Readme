@@ -16,13 +16,6 @@ const questions = [
     },
 
     {
-        type: 'checkbox',
-        message: 'What would you like in your table of contents?',
-        name: 'table',
-        choices: ['Contributors', 'Description', 'Installation', 'Licenses', 'Questions', 'Tests', 'Usage']
-    },
-
-    {
         type: 'input',
         message: 'What is the project description?',
         name: 'description'
@@ -41,7 +34,7 @@ const questions = [
     },
 
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Which license should the project use?',
         name: 'license',
         choices: ['GPL', 'BSD', 'MIT', 'Apache', 'N/A']
@@ -69,29 +62,34 @@ const questions = [
 // TODO: Create a function to write README file
 
 function generator(answers) {
-    return `
-    # ${answers.title}
-    ${answers.license}
+    return `# ${answers.title}
+${answers.license}
 
-    ## Table of Contents
+## Table of Contents
+- [Description](#description) 
+- [Usage](#usage)
+- [Tests](#tests) 
+- [contributors](#contributors)
+- [contact](#contact)
 
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ## Usage
-    ${answers.usage}
+## Usage
+${answers.usage}
 
-    ## Tests
-    ${answers.testing}
+## Tests
+${answers.testing}
 
-    ## Contributors
-    ${answers.contributors}
+## Contributors
+${answers.contributors}
 
-    ## Contact
-    Email me at ${answers.email}.
-    Visit my GitHub at https://github.com/${answers.username}
+## Contact
+Email me at ${answers.email}.
+
+Visit my GitHub at https://github.com/${answers.username}
     
-    `
+`
 }
 
 function createTable() {
