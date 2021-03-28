@@ -1,15 +1,19 @@
-# README generator
+# Readme generator
 GPL
 
 ## Table of Contents
 - [Description](#description) 
 - [Usage](#usage)
-- [Tests](#tests) 
+- [Tests](#tests)
+- [Installation](#installation) 
 - [contributors](#contributors)
 - [contact](#contact)
 
 ## Description
-This will generate a professional README
+generates a readme file
+
+## Installation
+carefully
 
 ## Usage
 dangerously
@@ -21,7 +25,7 @@ none
 rhineyman
 
 ## Contact
-Email me at rhineyman@gmail.com.
+Email me at rhineyman.
 
 Visit my GitHub at https://github.com/rhineyman
     

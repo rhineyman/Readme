@@ -68,12 +68,16 @@ ${answers.license}
 ## Table of Contents
 - [Description](#description) 
 - [Usage](#usage)
-- [Tests](#tests) 
+- [Tests](#tests)
+- [Installation](#installation) 
 - [contributors](#contributors)
 - [contact](#contact)
 
 ## Description
 ${answers.description}
+
+## Installation
+${answers.installation}
 
 ## Usage
 ${answers.usage}
